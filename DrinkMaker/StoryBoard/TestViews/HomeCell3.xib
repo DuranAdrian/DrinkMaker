@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="i4f-WA-Hhs" customClass="HomeCell3" customModule="DrinkMaker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="182" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="J8C-DX-wx6">
+                <rect key="frame" x="0.0" y="0.0" width="182" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Radler" translatesAutoresizingMaskIntoConstraints="NO" id="GlJ-zt-kpD">
+                        <rect key="frame" x="0.0" y="0.0" width="182" height="150"/>
+                    </imageView>
+                    <visualEffectView opaque="NO" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5E-ra-KeV">
+                        <rect key="frame" x="0.0" y="0.0" width="182" height="150"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hzB-G7-ueN">
+                            <rect key="frame" x="0.0" y="0.0" width="182" height="150"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <blurEffect style="dark"/>
+                    </visualEffectView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYC-WR-Bj1">
+                        <rect key="frame" x="10" y="118.5" width="162" height="26.5"/>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="22"/>
+                        <color key="textColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ordinary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqJ-ba-yan">
+                        <rect key="frame" x="10" y="102.5" width="162" height="16"/>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                        <color key="textColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.20000000000000001" green="0.20784313730000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="GlJ-zt-kpD" firstAttribute="top" secondItem="J8C-DX-wx6" secondAttribute="top" id="0J7-20-sKH"/>
+                    <constraint firstAttribute="trailing" secondItem="uqJ-ba-yan" secondAttribute="trailing" constant="10" id="2rq-WI-I3d"/>
+                    <constraint firstAttribute="trailing" secondItem="TYC-WR-Bj1" secondAttribute="trailing" constant="10" id="762-JO-Ig4"/>
+                    <constraint firstItem="M5E-ra-KeV" firstAttribute="leading" secondItem="J8C-DX-wx6" secondAttribute="leading" id="C7V-yB-eIX"/>
+                    <constraint firstAttribute="bottom" secondItem="M5E-ra-KeV" secondAttribute="bottom" id="Fff-4M-QEX"/>
+                    <constraint firstItem="M5E-ra-KeV" firstAttribute="top" secondItem="J8C-DX-wx6" secondAttribute="top" id="G7K-1h-RZf"/>
+                    <constraint firstItem="TYC-WR-Bj1" firstAttribute="top" secondItem="uqJ-ba-yan" secondAttribute="bottom" id="Kkh-sQ-PQb"/>
+                    <constraint firstItem="TYC-WR-Bj1" firstAttribute="leading" secondItem="J8C-DX-wx6" secondAttribute="leading" constant="10" id="Rak-SV-3Na"/>
+                    <constraint firstItem="GlJ-zt-kpD" firstAttribute="width" secondItem="J8C-DX-wx6" secondAttribute="width" id="U0G-eR-sVC"/>
+                    <constraint firstAttribute="trailing" secondItem="M5E-ra-KeV" secondAttribute="trailing" id="WTs-gx-dlS"/>
+                    <constraint firstItem="uqJ-ba-yan" firstAttribute="leading" secondItem="J8C-DX-wx6" secondAttribute="leading" constant="10" id="WrN-uN-edn"/>
+                    <constraint firstItem="GlJ-zt-kpD" firstAttribute="height" secondItem="J8C-DX-wx6" secondAttribute="height" id="Zfb-LZ-7wI"/>
+                    <constraint firstItem="GlJ-zt-kpD" firstAttribute="leading" secondItem="J8C-DX-wx6" secondAttribute="leading" id="anl-NC-E6t"/>
+                    <constraint firstAttribute="trailing" secondItem="GlJ-zt-kpD" secondAttribute="trailing" id="hpH-Eu-d6S"/>
+                    <constraint firstAttribute="bottom" secondItem="GlJ-zt-kpD" secondAttribute="bottom" id="kJX-Z5-ajD"/>
+                    <constraint firstAttribute="bottom" secondItem="TYC-WR-Bj1" secondAttribute="bottom" constant="5" id="yed-Uq-nTG"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="drinkImage" destination="GlJ-zt-kpD" id="ol8-3D-XeX"/>
+                <outlet property="nameLabel" destination="TYC-WR-Bj1" id="hiH-MX-qDu"/>
+            </connections>
+            <point key="canvasLocation" x="-191.30434782608697" y="33.482142857142854"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Radler" width="700" height="700"/>
+    </resources>
+</document>

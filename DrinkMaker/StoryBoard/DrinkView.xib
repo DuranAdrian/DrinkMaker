@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="5xP-dc-aXl">
+            <view key="view" contentMode="scaleToFill" id="eqE-2Q-Xc3">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cocktail-Placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="fZw-gr-luI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="270"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brandy Sour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzz-oP-xmc">
+                        <rect key="frame" x="20" y="280" width="374" height="21"/>
+                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTt-NX-VC4">
+                        <rect key="frame" x="20" y="311" width="374" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xee-gP-LtJ">
+                        <rect key="frame" x="20" y="342" width="374" height="387.5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </tableView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hU0-f5-RpK">
+                        <rect key="frame" x="20" y="739.5" width="374" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjN-Lb-fh9">
+                        <rect key="frame" x="20" y="780.5" width="374" height="81.5"/>
+                        <string key="text">Shake brandy, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Decorate with the lemon slice, top with the cherry, and serve.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                <constraints>
+                    <constraint firstItem="FV2-kN-LVs" firstAttribute="trailing" secondItem="xee-gP-LtJ" secondAttribute="trailing" constant="20" id="0fo-2R-Uxb"/>
+                    <constraint firstItem="xee-gP-LtJ" firstAttribute="leading" secondItem="FV2-kN-LVs" secondAttribute="leading" constant="20" id="2fT-z9-RGk"/>
+                    <constraint firstItem="FTt-NX-VC4" firstAttribute="top" secondItem="Tzz-oP-xmc" secondAttribute="bottom" constant="10" id="5TG-Eb-Dxs"/>
+                    <constraint firstItem="MjN-Lb-fh9" firstAttribute="leading" secondItem="FV2-kN-LVs" secondAttribute="leading" constant="20" id="EPF-LY-D2P"/>
+                    <constraint firstItem="FV2-kN-LVs" firstAttribute="trailing" secondItem="hU0-f5-RpK" secondAttribute="trailing" constant="20" id="Hey-Aq-57m"/>
+                    <constraint firstItem="MjN-Lb-fh9" firstAttribute="bottom" secondItem="FV2-kN-LVs" secondAttribute="bottom" id="Hmp-Vu-d7U"/>
+                    <constraint firstItem="xee-gP-LtJ" firstAttribute="top" secondItem="FTt-NX-VC4" secondAttribute="bottom" constant="10" id="KBw-6U-t4v"/>
+                    <constraint firstItem="fZw-gr-luI" firstAttribute="leading" secondItem="FV2-kN-LVs" secondAttribute="leading" id="P41-Pn-r5f"/>
+                    <constraint firstItem="hU0-f5-RpK" firstAttribute="leading" secondItem="FV2-kN-LVs" secondAttribute="leading" constant="20" id="SPJ-wG-cfN"/>
+                    <constraint firstItem="FV2-kN-LVs" firstAttribute="trailing" secondItem="fZw-gr-luI" secondAttribute="trailing" id="W3R-Uz-8c9"/>
+                    <constraint firstItem="fZw-gr-luI" firstAttribute="top" secondItem="eqE-2Q-Xc3" secondAttribute="top" id="WpU-v9-Kft"/>
+                    <constraint firstItem="fZw-gr-luI" firstAttribute="height" secondItem="FV2-kN-LVs" secondAttribute="height" multiplier="0.33" id="aM5-HH-IdS"/>
+                    <constraint firstItem="MjN-Lb-fh9" firstAttribute="top" secondItem="hU0-f5-RpK" secondAttribute="bottom" constant="20" id="bY0-pP-n2V"/>
+                    <constraint firstItem="FV2-kN-LVs" firstAttribute="trailing" secondItem="Tzz-oP-xmc" secondAttribute="trailing" constant="20" id="hC0-hb-6mF"/>
+                    <constraint firstItem="FV2-kN-LVs" firstAttribute="trailing" secondItem="FTt-NX-VC4" secondAttribute="trailing" constant="20" id="iNX-Sw-c6F"/>
+                    <constraint firstAttribute="trailing" secondItem="MjN-Lb-fh9" secondAttribute="trailing" constant="20" id="jL1-dz-r4d"/>
+                    <constraint firstItem="Tzz-oP-xmc" firstAttribute="leading" secondItem="FV2-kN-LVs" secondAttribute="leading" constant="20" id="kVh-DH-xsM"/>
+                    <constraint firstItem="hU0-f5-RpK" firstAttribute="top" secondItem="xee-gP-LtJ" secondAttribute="bottom" constant="10" id="kgz-4Q-JKn"/>
+                    <constraint firstItem="Tzz-oP-xmc" firstAttribute="top" secondItem="fZw-gr-luI" secondAttribute="bottom" constant="10" id="l11-FE-Fye"/>
+                    <constraint firstItem="FTt-NX-VC4" firstAttribute="leading" secondItem="FV2-kN-LVs" secondAttribute="leading" constant="20" id="taZ-z0-IyU"/>
+                </constraints>
+                <viewLayoutGuide key="safeArea" id="FV2-kN-LVs"/>
+            </view>
+            <size key="freeformSize" width="414" height="896"/>
+            <point key="canvasLocation" x="132" y="154"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="Cocktail-Placeholder" width="1471" height="3590"/>
+    </resources>
+</document>

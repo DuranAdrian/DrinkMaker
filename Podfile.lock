@@ -1,0 +1,20 @@
+PODS:
+  - FontAwesome.swift (1.9.0)
+  - TagListView (1.4.0)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - TagListView (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - FontAwesome.swift
+    - TagListView
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: a403b88cec950511745ba8f2decd1b6a07346d13
+  TagListView: 987b0bdbb16cd9d9e7c0e2ec32aff37ecba8b173
+
+PODFILE CHECKSUM: a6844687f5692ad99d1f8d6353c7b779e8942a7b
+
+COCOAPODS: 1.8.4

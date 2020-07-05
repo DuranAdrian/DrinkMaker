@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="IngredientCell" id="jGR-I0-3Py" customClass="IngredientCell" customModule="DrinkMaker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jGR-I0-3Py" id="NnF-R8-D9Q">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fbS-Tg-NzN">
+                        <rect key="frame" x="40" y="19.5" width="5" height="5"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.20784313725490194" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="5" id="Yo4-T3-b9s"/>
+                            <constraint firstAttribute="width" constant="5" id="bgM-dF-H0B"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instruction" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMj-7v-gPr">
+                        <rect key="frame" x="60" y="14" width="334" height="16"/>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                        <color key="textColor" red="0.90980392160000001" green="0.92941176469999998" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.20000000000000001" green="0.20784313730000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="aMj-7v-gPr" firstAttribute="leading" secondItem="fbS-Tg-NzN" secondAttribute="trailing" constant="15" id="BPe-Ok-mQW"/>
+                    <constraint firstItem="fbS-Tg-NzN" firstAttribute="leading" secondItem="NnF-R8-D9Q" secondAttribute="leadingMargin" constant="20" id="CyV-Bt-L2i"/>
+                    <constraint firstItem="fbS-Tg-NzN" firstAttribute="centerY" secondItem="NnF-R8-D9Q" secondAttribute="centerY" id="YIM-WP-5fj"/>
+                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="aMj-7v-gPr" secondAttribute="trailing" constant="20" id="o0J-vG-W98"/>
+                    <constraint firstItem="aMj-7v-gPr" firstAttribute="centerY" secondItem="NnF-R8-D9Q" secondAttribute="centerY" id="po4-Fz-aa5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="Ingredient" destination="aMj-7v-gPr" id="i5v-NC-9Xy"/>
+                <outlet property="bulletView" destination="fbS-Tg-NzN" id="3PV-23-ibQ"/>
+            </connections>
+            <point key="canvasLocation" x="112" y="85"/>
+        </tableViewCell>
+    </objects>
+</document>

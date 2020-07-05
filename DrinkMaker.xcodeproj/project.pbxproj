@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9308BD1A249D376E00CBAA53 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD19249D376D00CBAA53 /* OFL.txt */; };
+		9308BD25249D39C000CBAA53 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD15249D376700CBAA53 /* Lato-Black.ttf */; };
+		9308BD26249D39C000CBAA53 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD13249D376700CBAA53 /* Lato-BlackItalic.ttf */; };
+		9308BD27249D39C000CBAA53 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD12249D376700CBAA53 /* Lato-Bold.ttf */; };
+		9308BD28249D39C000CBAA53 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD0F249D376700CBAA53 /* Lato-BoldItalic.ttf */; };
+		9308BD29249D39C000CBAA53 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD14249D376700CBAA53 /* Lato-Italic.ttf */; };
+		9308BD2A249D39C000CBAA53 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD10249D376700CBAA53 /* Lato-Light.ttf */; };
+		9308BD2B249D39C000CBAA53 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD11249D376700CBAA53 /* Lato-LightItalic.ttf */; };
+		9308BD2C249D39C000CBAA53 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD16249D376700CBAA53 /* Lato-Regular.ttf */; };
+		9308BD2D249D39C000CBAA53 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD18249D376800CBAA53 /* Lato-Thin.ttf */; };
+		9308BD2E249D39C000CBAA53 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD17249D376800CBAA53 /* Lato-ThinItalic.ttf */; };
+		9308BD30249D697600CBAA53 /* IngredientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9308BD2F249D697600CBAA53 /* IngredientCell.xib */; };
+		9308BD33249D6CDA00CBAA53 /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308BD32249D6CDA00CBAA53 /* IngredientCell.swift */; };
+		9308BD36249D78DD00CBAA53 /* UpdatedSingleDrinkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308BD35249D78DD00CBAA53 /* UpdatedSingleDrinkTableViewController.swift */; };
+		9308BD38249D851300CBAA53 /* DrinkPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308BD37249D851300CBAA53 /* DrinkPictureView.swift */; };
+		9308BD42249D935200CBAA53 /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308BD41249D935200CBAA53 /* SectionTitleView.swift */; };
+		9308BD45249D937900CBAA53 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308BD44249D937900CBAA53 /* UIColor+Ext.swift */; };
+		9308BD47249D983900CBAA53 /* TestInstructionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308BD46249D983900CBAA53 /* TestInstructionsCell.swift */; };
+		931725A624AA614700EE1CF9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931725A524AA614700EE1CF9 /* SearchViewController.swift */; };
+		931CBA7924A960E300B774AE /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CBA7824A960E300B774AE /* SearchButton.swift */; };
+		9323003824A50E0300BB94BB /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323003724A50E0300BB94BB /* UIView+Ext.swift */; };
+		9323003A24A582AF00BB94BB /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323003924A582AF00BB94BB /* HomeCollectionViewController.swift */; };
+		9323003C24A5861C00BB94BB /* SectionCollectionHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323003B24A5861C00BB94BB /* SectionCollectionHeaderReusableView.swift */; };
+		9323003E24A598D200BB94BB /* DrinkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323003D24A598D200BB94BB /* DrinkCollectionViewCell.swift */; };
+		932E029424A67135009A975B /* HomeCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932E029324A67135009A975B /* HomeCell3.swift */; };
+		932E029624A67C48009A975B /* HomeCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932E029524A67C48009A975B /* HomeCell3.xib */; };
+		933C3C9A249D1A9300E45C56 /* DrinkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933C3C99249D1A9300E45C56 /* DrinkView.xib */; };
+		933C3C9D249D2B5E00E45C56 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C3C9C249D2B5E00E45C56 /* DrinkView.swift */; };
+		933C3C9F249D2D4100E45C56 /* SingleDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C3C9E249D2D4100E45C56 /* SingleDrinkViewController.swift */; };
+		9351FBF3249C0BE100ACAC96 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351FBF2249C0BE100ACAC96 /* Ingredient.swift */; };
+		9351FBF5249C0E6900ACAC96 /* IngredientAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351FBF4249C0E6900ACAC96 /* IngredientAPI.swift */; };
+		9360133524A7C2100067FE63 /* FullSize3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360133424A7C2100067FE63 /* FullSize3.swift */; };
+		9360133824A7CCA70067FE63 /* Square1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360133724A7CCA70067FE63 /* Square1.swift */; };
+		9360133A24A7CCC00067FE63 /* Square1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9360133924A7CCC00067FE63 /* Square1.xib */; };
+		9360133C24A7ED2A0067FE63 /* SquareHomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360133B24A7ED2A0067FE63 /* SquareHomeCollectionViewController.swift */; };
+		937A022024A3CB210023CC95 /* IngredientImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937A021F24A3CB210023CC95 /* IngredientImagesTableViewCell.swift */; };
+		937A022324A3CEDC0023CC95 /* IngredientRoundedImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937A022224A3CEDC0023CC95 /* IngredientRoundedImageCollectionCell.swift */; };
+		938ECDCE24AE9AB100222375 /* IngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938ECDCD24AE9AB100222375 /* IngredientsTableViewController.swift */; };
+		93A5593B24A2AC510011F479 /* UpdatedDrinkDetailsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A5593A24A2AC510011F479 /* UpdatedDrinkDetailsTableCell.xib */; };
+		93A5593D24A2AF040011F479 /* UpdatedDrinkDetailsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A5593C24A2AF040011F479 /* UpdatedDrinkDetailsTableCell.swift */; };
+		93AC0EE124A68FE50085495A /* HomeCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC0EE024A68FE40085495A /* HomeCell2.swift */; };
+		93AC0EE324A69D300085495A /* HomeCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC0EE224A69D300085495A /* HomeCell1.swift */; };
+		93AC0EE724A6A7160085495A /* FullSize1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC0EE624A6A7160085495A /* FullSize1.swift */; };
+		93AC0EE924A6B4B60085495A /* FullSize2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC0EE824A6B4B60085495A /* FullSize2.swift */; };
+		93DEFC5A249A958E00200059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DEFC59249A958E00200059 /* AppDelegate.swift */; };
+		93DEFC5C249A958E00200059 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DEFC5B249A958E00200059 /* SceneDelegate.swift */; };
+		93DEFC5E249A958E00200059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DEFC5D249A958E00200059 /* ViewController.swift */; };
+		93DEFC61249A958E00200059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DEFC5F249A958E00200059 /* Main.storyboard */; };
+		93DEFC63249A959100200059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DEFC62249A959100200059 /* Assets.xcassets */; };
+		93DEFC66249A959100200059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DEFC64249A959100200059 /* LaunchScreen.storyboard */; };
+		93DEFC72249A95CB00200059 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DEFC71249A95CB00200059 /* Drink.swift */; };
+		93DEFC75249A963600200059 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DEFC74249A963600200059 /* NetworkManager.swift */; };
+		93DEFC77249A967D00200059 /* DrinksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DEFC76249A967D00200059 /* DrinksAPI.swift */; };
+		AFBFC3C1C00314730E655116 /* Pods_DrinkMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C5220EF2A11AF1E2554102 /* Pods_DrinkMaker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C5220EF2A11AF1E2554102 /* Pods_DrinkMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		698B0035C7F2844FD6155B81 /* Pods-DrinkMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkMaker.release.xcconfig"; path = "Target Support Files/Pods-DrinkMaker/Pods-DrinkMaker.release.xcconfig"; sourceTree = "<group>"; };
+		9308BD0F249D376700CBAA53 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9308BD10249D376700CBAA53 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		9308BD11249D376700CBAA53 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		9308BD12249D376700CBAA53 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		9308BD13249D376700CBAA53 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9308BD14249D376700CBAA53 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		9308BD15249D376700CBAA53 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		9308BD16249D376700CBAA53 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		9308BD17249D376800CBAA53 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		9308BD18249D376800CBAA53 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		9308BD19249D376D00CBAA53 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		9308BD2F249D697600CBAA53 /* IngredientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientCell.xib; sourceTree = "<group>"; };
+		9308BD32249D6CDA00CBAA53 /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
+		9308BD35249D78DD00CBAA53 /* UpdatedSingleDrinkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedSingleDrinkTableViewController.swift; sourceTree = "<group>"; };
+		9308BD37249D851300CBAA53 /* DrinkPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkPictureView.swift; sourceTree = "<group>"; };
+		9308BD41249D935200CBAA53 /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
+		9308BD44249D937900CBAA53 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		9308BD46249D983900CBAA53 /* TestInstructionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInstructionsCell.swift; sourceTree = "<group>"; };
+		931725A524AA614700EE1CF9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		931CBA7824A960E300B774AE /* SearchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
+		9323003724A50E0300BB94BB /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		9323003924A582AF00BB94BB /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		9323003B24A5861C00BB94BB /* SectionCollectionHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCollectionHeaderReusableView.swift; sourceTree = "<group>"; };
+		9323003D24A598D200BB94BB /* DrinkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCollectionViewCell.swift; sourceTree = "<group>"; };
+		932E029324A67135009A975B /* HomeCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell3.swift; sourceTree = "<group>"; };
+		932E029524A67C48009A975B /* HomeCell3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell3.xib; sourceTree = "<group>"; };
+		933C3C99249D1A9300E45C56 /* DrinkView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinkView.xib; sourceTree = "<group>"; };
+		933C3C9C249D2B5E00E45C56 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		933C3C9E249D2D4100E45C56 /* SingleDrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDrinkViewController.swift; sourceTree = "<group>"; };
+		9351FBF2249C0BE100ACAC96 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		9351FBF4249C0E6900ACAC96 /* IngredientAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientAPI.swift; sourceTree = "<group>"; };
+		9360133424A7C2100067FE63 /* FullSize3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSize3.swift; sourceTree = "<group>"; };
+		9360133724A7CCA70067FE63 /* Square1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square1.swift; sourceTree = "<group>"; };
+		9360133924A7CCC00067FE63 /* Square1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Square1.xib; sourceTree = "<group>"; };
+		9360133B24A7ED2A0067FE63 /* SquareHomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareHomeCollectionViewController.swift; sourceTree = "<group>"; };
+		937A021F24A3CB210023CC95 /* IngredientImagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientImagesTableViewCell.swift; sourceTree = "<group>"; };
+		937A022224A3CEDC0023CC95 /* IngredientRoundedImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientRoundedImageCollectionCell.swift; sourceTree = "<group>"; };
+		938ECDCD24AE9AB100222375 /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
+		93A5593A24A2AC510011F479 /* UpdatedDrinkDetailsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdatedDrinkDetailsTableCell.xib; sourceTree = "<group>"; };
+		93A5593C24A2AF040011F479 /* UpdatedDrinkDetailsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedDrinkDetailsTableCell.swift; sourceTree = "<group>"; };
+		93AC0EE024A68FE40085495A /* HomeCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell2.swift; sourceTree = "<group>"; };
+		93AC0EE224A69D300085495A /* HomeCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell1.swift; sourceTree = "<group>"; };
+		93AC0EE624A6A7160085495A /* FullSize1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSize1.swift; sourceTree = "<group>"; };
+		93AC0EE824A6B4B60085495A /* FullSize2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSize2.swift; sourceTree = "<group>"; };
+		93DEFC56249A958E00200059 /* DrinkMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DEFC59249A958E00200059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93DEFC5B249A958E00200059 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		93DEFC5D249A958E00200059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93DEFC60249A958E00200059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93DEFC62249A959100200059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93DEFC65249A959100200059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93DEFC67249A959100200059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DEFC71249A95CB00200059 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		93DEFC74249A963600200059 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		93DEFC76249A967D00200059 /* DrinksAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksAPI.swift; sourceTree = "<group>"; };
+		9573C6C7426BFAF3B5CA1544 /* Pods-DrinkMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkMaker.debug.xcconfig"; path = "Target Support Files/Pods-DrinkMaker/Pods-DrinkMaker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93DEFC53249A958E00200059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBFC3C1C00314730E655116 /* Pods_DrinkMaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114A579EE84438504732E061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00C5220EF2A11AF1E2554102 /* Pods_DrinkMaker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9308BD0E249D375800CBAA53 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9308BD15249D376700CBAA53 /* Lato-Black.ttf */,
+				9308BD13249D376700CBAA53 /* Lato-BlackItalic.ttf */,
+				9308BD12249D376700CBAA53 /* Lato-Bold.ttf */,
+				9308BD0F249D376700CBAA53 /* Lato-BoldItalic.ttf */,
+				9308BD14249D376700CBAA53 /* Lato-Italic.ttf */,
+				9308BD10249D376700CBAA53 /* Lato-Light.ttf */,
+				9308BD11249D376700CBAA53 /* Lato-LightItalic.ttf */,
+				9308BD16249D376700CBAA53 /* Lato-Regular.ttf */,
+				9308BD18249D376800CBAA53 /* Lato-Thin.ttf */,
+				9308BD17249D376800CBAA53 /* Lato-ThinItalic.ttf */,
+				9308BD19249D376D00CBAA53 /* OFL.txt */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		9308BD31249D6CC000CBAA53 /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9308BD39249D901E00CBAA53 /* TestTableViewCells */,
+				9308BD32249D6CDA00CBAA53 /* IngredientCell.swift */,
+				93A5593C24A2AF040011F479 /* UpdatedDrinkDetailsTableCell.swift */,
+			);
+			path = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		9308BD34249D78A200CBAA53 /* TestViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9323003924A582AF00BB94BB /* HomeCollectionViewController.swift */,
+				9360133B24A7ED2A0067FE63 /* SquareHomeCollectionViewController.swift */,
+				931725A524AA614700EE1CF9 /* SearchViewController.swift */,
+				938ECDCD24AE9AB100222375 /* IngredientsTableViewController.swift */,
+			);
+			path = TestViewControllers;
+			sourceTree = "<group>";
+		};
+		9308BD39249D901E00CBAA53 /* TestTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9308BD46249D983900CBAA53 /* TestInstructionsCell.swift */,
+				937A021F24A3CB210023CC95 /* IngredientImagesTableViewCell.swift */,
+			);
+			path = TestTableViewCells;
+			sourceTree = "<group>";
+		};
+		9308BD3E249D90CC00CBAA53 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9308BD2F249D697600CBAA53 /* IngredientCell.xib */,
+				93A5593A24A2AC510011F479 /* UpdatedDrinkDetailsTableCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		9308BD43249D936B00CBAA53 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9308BD44249D937900CBAA53 /* UIColor+Ext.swift */,
+				9323003724A50E0300BB94BB /* UIView+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		933C3C9B249D2B4C00E45C56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93B56F4B24A1721200763C28 /* UICollectionViewCell */,
+				93B56F4824A16E5D00763C28 /* TestViews */,
+				9308BD31249D6CC000CBAA53 /* UITableViewCells */,
+				933C3C9C249D2B5E00E45C56 /* DrinkView.swift */,
+				9308BD37249D851300CBAA53 /* DrinkPictureView.swift */,
+				9308BD41249D935200CBAA53 /* SectionTitleView.swift */,
+				9323003B24A5861C00BB94BB /* SectionCollectionHeaderReusableView.swift */,
+				931CBA7824A960E300B774AE /* SearchButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9360133624A7CC7F0067FE63 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				9360133724A7CCA70067FE63 /* Square1.swift */,
+			);
+			path = Square;
+			sourceTree = "<group>";
+		};
+		937A022124A3CEB70023CC95 /* TestCollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9360133624A7CC7F0067FE63 /* Square */,
+				93AC0EE524A6A7020085495A /* FullSize */,
+				93AC0EE424A6A6F40085495A /* Half-Size */,
+			);
+			path = TestCollectionViewCells;
+			sourceTree = "<group>";
+		};
+		93AC0EE424A6A6F40085495A /* Half-Size */ = {
+			isa = PBXGroup;
+			children = (
+				9323003D24A598D200BB94BB /* DrinkCollectionViewCell.swift */,
+				932E029324A67135009A975B /* HomeCell3.swift */,
+				93AC0EE024A68FE40085495A /* HomeCell2.swift */,
+				93AC0EE224A69D300085495A /* HomeCell1.swift */,
+			);
+			path = "Half-Size";
+			sourceTree = "<group>";
+		};
+		93AC0EE524A6A7020085495A /* FullSize */ = {
+			isa = PBXGroup;
+			children = (
+				93AC0EE624A6A7160085495A /* FullSize1.swift */,
+				93AC0EE824A6B4B60085495A /* FullSize2.swift */,
+				9360133424A7C2100067FE63 /* FullSize3.swift */,
+			);
+			path = FullSize;
+			sourceTree = "<group>";
+		};
+		93B56F4824A16E5D00763C28 /* TestViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TestViews;
+			sourceTree = "<group>";
+		};
+		93B56F4B24A1721200763C28 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				937A022124A3CEB70023CC95 /* TestCollectionViewCells */,
+				937A022224A3CEDC0023CC95 /* IngredientRoundedImageCollectionCell.swift */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		93B56F4E24A1753000763C28 /* TestViews */ = {
+			isa = PBXGroup;
+			children = (
+				932E029524A67C48009A975B /* HomeCell3.xib */,
+				9360133924A7CCC00067FE63 /* Square1.xib */,
+			);
+			path = TestViews;
+			sourceTree = "<group>";
+		};
+		93DEFC4D249A958D00200059 = {
+			isa = PBXGroup;
+			children = (
+				93DEFC58249A958E00200059 /* DrinkMaker */,
+				93DEFC57249A958E00200059 /* Products */,
+				E15530939C7F48526C476EB1 /* Pods */,
+				114A579EE84438504732E061 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93DEFC57249A958E00200059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93DEFC56249A958E00200059 /* DrinkMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93DEFC58249A958E00200059 /* DrinkMaker */ = {
+			isa = PBXGroup;
+			children = (
+				9308BD43249D936B00CBAA53 /* Extension */,
+				933C3C9B249D2B4C00E45C56 /* Views */,
+				93DEFC73249A962800200059 /* Network */,
+				93DEFC70249A95C000200059 /* Models */,
+				93DEFC6F249A95AB00200059 /* ViewControllers */,
+				93DEFC6E249A95A000200059 /* StoryBoard */,
+				93DEFC6D249A959700200059 /* Resources */,
+				93DEFC59249A958E00200059 /* AppDelegate.swift */,
+				93DEFC5B249A958E00200059 /* SceneDelegate.swift */,
+				93DEFC67249A959100200059 /* Info.plist */,
+			);
+			path = DrinkMaker;
+			sourceTree = "<group>";
+		};
+		93DEFC6D249A959700200059 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9308BD0E249D375800CBAA53 /* Font */,
+				93DEFC62249A959100200059 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93DEFC6E249A95A000200059 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				93B56F4E24A1753000763C28 /* TestViews */,
+				9308BD3E249D90CC00CBAA53 /* TableViewCells */,
+				93DEFC5F249A958E00200059 /* Main.storyboard */,
+				93DEFC64249A959100200059 /* LaunchScreen.storyboard */,
+				933C3C99249D1A9300E45C56 /* DrinkView.xib */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		93DEFC6F249A95AB00200059 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9308BD34249D78A200CBAA53 /* TestViewControllers */,
+				93DEFC5D249A958E00200059 /* ViewController.swift */,
+				933C3C9E249D2D4100E45C56 /* SingleDrinkViewController.swift */,
+				9308BD35249D78DD00CBAA53 /* UpdatedSingleDrinkTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		93DEFC70249A95C000200059 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93DEFC71249A95CB00200059 /* Drink.swift */,
+				9351FBF2249C0BE100ACAC96 /* Ingredient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93DEFC73249A962800200059 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				93DEFC74249A963600200059 /* NetworkManager.swift */,
+				93DEFC76249A967D00200059 /* DrinksAPI.swift */,
+				9351FBF4249C0E6900ACAC96 /* IngredientAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E15530939C7F48526C476EB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9573C6C7426BFAF3B5CA1544 /* Pods-DrinkMaker.debug.xcconfig */,
+				698B0035C7F2844FD6155B81 /* Pods-DrinkMaker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93DEFC55249A958E00200059 /* DrinkMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DEFC6A249A959100200059 /* Build configuration list for PBXNativeTarget "DrinkMaker" */;
+			buildPhases = (
+				8765FAF82C7E6D5AC5DF8734 /* [CP] Check Pods Manifest.lock */,
+				93DEFC52249A958E00200059 /* Sources */,
+				93DEFC53249A958E00200059 /* Frameworks */,
+				93DEFC54249A958E00200059 /* Resources */,
+				460F197EE0A8A3C72404BF50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkMaker;
+			productName = DrinkMaker;
+			productReference = 93DEFC56249A958E00200059 /* DrinkMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93DEFC4E249A958D00200059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = AdrianDuran;
+				TargetAttributes = {
+					93DEFC55249A958E00200059 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 93DEFC51249A958D00200059 /* Build configuration list for PBXProject "DrinkMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93DEFC4D249A958D00200059;
+			productRefGroup = 93DEFC57249A958E00200059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93DEFC55249A958E00200059 /* DrinkMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93DEFC54249A958E00200059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9360133A24A7CCC00067FE63 /* Square1.xib in Resources */,
+				9308BD29249D39C000CBAA53 /* Lato-Italic.ttf in Resources */,
+				9308BD1A249D376E00CBAA53 /* OFL.txt in Resources */,
+				93DEFC66249A959100200059 /* LaunchScreen.storyboard in Resources */,
+				9308BD2A249D39C000CBAA53 /* Lato-Light.ttf in Resources */,
+				9308BD26249D39C000CBAA53 /* Lato-BlackItalic.ttf in Resources */,
+				9308BD28249D39C000CBAA53 /* Lato-BoldItalic.ttf in Resources */,
+				933C3C9A249D1A9300E45C56 /* DrinkView.xib in Resources */,
+				9308BD2E249D39C000CBAA53 /* Lato-ThinItalic.ttf in Resources */,
+				9308BD2B249D39C000CBAA53 /* Lato-LightItalic.ttf in Resources */,
+				93DEFC63249A959100200059 /* Assets.xcassets in Resources */,
+				93A5593B24A2AC510011F479 /* UpdatedDrinkDetailsTableCell.xib in Resources */,
+				9308BD2D249D39C000CBAA53 /* Lato-Thin.ttf in Resources */,
+				9308BD25249D39C000CBAA53 /* Lato-Black.ttf in Resources */,
+				932E029624A67C48009A975B /* HomeCell3.xib in Resources */,
+				9308BD30249D697600CBAA53 /* IngredientCell.xib in Resources */,
+				9308BD2C249D39C000CBAA53 /* Lato-Regular.ttf in Resources */,
+				93DEFC61249A958E00200059 /* Main.storyboard in Resources */,
+				9308BD27249D39C000CBAA53 /* Lato-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		460F197EE0A8A3C72404BF50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrinkMaker/Pods-DrinkMaker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrinkMaker/Pods-DrinkMaker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrinkMaker/Pods-DrinkMaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8765FAF82C7E6D5AC5DF8734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrinkMaker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93DEFC52249A958E00200059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938ECDCE24AE9AB100222375 /* IngredientsTableViewController.swift in Sources */,
+				93AC0EE724A6A7160085495A /* FullSize1.swift in Sources */,
+				93DEFC5E249A958E00200059 /* ViewController.swift in Sources */,
+				9351FBF5249C0E6900ACAC96 /* IngredientAPI.swift in Sources */,
+				937A022024A3CB210023CC95 /* IngredientImagesTableViewCell.swift in Sources */,
+				93DEFC77249A967D00200059 /* DrinksAPI.swift in Sources */,
+				9308BD38249D851300CBAA53 /* DrinkPictureView.swift in Sources */,
+				9351FBF3249C0BE100ACAC96 /* Ingredient.swift in Sources */,
+				9308BD45249D937900CBAA53 /* UIColor+Ext.swift in Sources */,
+				93DEFC5A249A958E00200059 /* AppDelegate.swift in Sources */,
+				9323003C24A5861C00BB94BB /* SectionCollectionHeaderReusableView.swift in Sources */,
+				933C3C9F249D2D4100E45C56 /* SingleDrinkViewController.swift in Sources */,
+				9308BD33249D6CDA00CBAA53 /* IngredientCell.swift in Sources */,
+				931725A624AA614700EE1CF9 /* SearchViewController.swift in Sources */,
+				9360133824A7CCA70067FE63 /* Square1.swift in Sources */,
+				9308BD42249D935200CBAA53 /* SectionTitleView.swift in Sources */,
+				9323003E24A598D200BB94BB /* DrinkCollectionViewCell.swift in Sources */,
+				93AC0EE124A68FE50085495A /* HomeCell2.swift in Sources */,
+				93DEFC75249A963600200059 /* NetworkManager.swift in Sources */,
+				9323003824A50E0300BB94BB /* UIView+Ext.swift in Sources */,
+				932E029424A67135009A975B /* HomeCell3.swift in Sources */,
+				93AC0EE924A6B4B60085495A /* FullSize2.swift in Sources */,
+				9308BD36249D78DD00CBAA53 /* UpdatedSingleDrinkTableViewController.swift in Sources */,
+				9308BD47249D983900CBAA53 /* TestInstructionsCell.swift in Sources */,
+				93A5593D24A2AF040011F479 /* UpdatedDrinkDetailsTableCell.swift in Sources */,
+				93AC0EE324A69D300085495A /* HomeCell1.swift in Sources */,
+				937A022324A3CEDC0023CC95 /* IngredientRoundedImageCollectionCell.swift in Sources */,
+				9360133524A7C2100067FE63 /* FullSize3.swift in Sources */,
+				933C3C9D249D2B5E00E45C56 /* DrinkView.swift in Sources */,
+				9360133C24A7ED2A0067FE63 /* SquareHomeCollectionViewController.swift in Sources */,
+				9323003A24A582AF00BB94BB /* HomeCollectionViewController.swift in Sources */,
+				93DEFC72249A95CB00200059 /* Drink.swift in Sources */,
+				93DEFC5C249A958E00200059 /* SceneDelegate.swift in Sources */,
+				931CBA7924A960E300B774AE /* SearchButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93DEFC5F249A958E00200059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DEFC60249A958E00200059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93DEFC64249A959100200059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DEFC65249A959100200059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93DEFC68249A959100200059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93DEFC69249A959100200059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93DEFC6B249A959100200059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9573C6C7426BFAF3B5CA1544 /* Pods-DrinkMaker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P729DN2FQ;
+				INFOPLIST_FILE = DrinkMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdrianDuran.DrinkMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93DEFC6C249A959100200059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698B0035C7F2844FD6155B81 /* Pods-DrinkMaker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P729DN2FQ;
+				INFOPLIST_FILE = DrinkMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdrianDuran.DrinkMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93DEFC51249A958D00200059 /* Build configuration list for PBXProject "DrinkMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DEFC68249A959100200059 /* Debug */,
+				93DEFC69249A959100200059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DEFC6A249A959100200059 /* Build configuration list for PBXNativeTarget "DrinkMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DEFC6B249A959100200059 /* Debug */,
+				93DEFC6C249A959100200059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93DEFC4E249A958D00200059 /* Project object */;
+}

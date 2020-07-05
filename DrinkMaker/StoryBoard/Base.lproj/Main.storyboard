@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="au1-gn-gTA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--TestHome-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DrinkMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="TestHome" image="command" catalog="system" id="DuE-YD-4PS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4501" y="94"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="9wI-lK-4Wp">
+            <objects>
+                <collectionViewController id="NwX-Cb-Bpq" customClass="SquareHomeCollectionViewController" customModule="DrinkMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="GxO-Cf-Eke">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BjY-Gp-Ds6">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wzk-J5-Yf8">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="fjO-Tz-LX4">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="NwX-Cb-Bpq" id="C4B-qn-sHU"/>
+                            <outlet property="delegate" destination="NwX-Cb-Bpq" id="MY3-6t-42T"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Home" id="KxY-w1-MZ6">
+                        <barButtonItem key="rightBarButtonItem" id="ajT-AE-Nuz"/>
+                    </navigationItem>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eqw-db-t93" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="479.71014492753625" y="-896.65178571428567"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="MeI-Z5-uoO">
+            <objects>
+                <collectionViewController id="aBz-mw-p8D" customClass="HomeCollectionViewController" customModule="DrinkMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="AYB-iW-66z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gP6-rN-M7Z">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="nbR-rQ-sg4">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="KR9-5S-GVU">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="aBz-mw-p8D" id="UTn-lf-rZA"/>
+                            <outlet property="delegate" destination="aBz-mw-p8D" id="Wea-vl-hKZ"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="xGC-BW-r0N">
+                        <color key="badgeColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PVS-fQ-NYF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-430" y="-36"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="A0E-3i-qUX">
+            <objects>
+                <viewController id="7yM-1C-Qfi" customClass="SearchViewController" customModule="DrinkMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9LZ-kB-z35">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cO-p2-e1d" customClass="SearchButton" customModule="DrinkMaker" customModuleProvider="target">
+                                <rect key="frame" x="20" y="668" width="374" height="37"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20784313730000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="5" maxX="10" maxY="5"/>
+                                <state key="normal" title="Look for Drinks">
+                                    <color key="titleColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Has Alcohol?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jjg-eP-P0Y">
+                                <rect key="frame" x="20" y="10" width="305" height="24"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                <color key="textColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="c0l-qJ-DBS">
+                                <rect key="frame" x="345" y="6.5" width="51" height="31"/>
+                                <color key="onTintColor" red="0.96078431369999995" green="0.79607843140000001" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </switch>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ep-XI-NUF" userLabel="Divider1">
+                                <rect key="frame" x="20" y="47.5" width="374" height="1"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="t7P-0m-8Au"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hy4-hu-mxc">
+                                <rect key="frame" x="20" y="58.5" width="374" height="24"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                <color key="textColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="dL8-6U-S4S" customClass="TagListView" customModule="TagListView">
+                                <rect key="frame" x="20" y="92.5" width="374" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTextColor">
+                                        <color key="value" red="0.14117647059999999" green="0.14117647059999999" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tagBackgroundColor">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.96078431369999995" green="0.79607843140000001" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="paddingX">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="paddingY">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tagSelectedBackgroundColor">
+                                        <color key="value" red="0.96078431369999995" green="0.79607843140000001" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tagHighlightedBackgroundColor">
+                                        <color key="value" red="0.90588235289999997" green="0.29803921570000003" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KvW-oK-qUC" userLabel="Divider2">
+                                <rect key="frame" x="20" y="122.5" width="374" height="1"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="jnI-rT-aHg"/>
+                                    <constraint firstAttribute="height" constant="1" id="sTM-Gz-okr"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K8N-gg-4OQ" customClass="TagListView" customModule="TagListView">
+                                <rect key="frame" x="20" y="167.5" width="374" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" red="0.14117647059999999" green="0.14117647059999999" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTextColor">
+                                        <color key="value" red="0.14117647059999999" green="0.14117647059999999" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tagBackgroundColor">
+                                        <color key="value" red="0.96078431369999995" green="0.79607843140000001" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.96078431369999995" green="0.79607843140000001" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="paddingY">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="paddingX">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TFU-PT-ItQ" userLabel="Divider3">
+                                <rect key="frame" x="20" y="197.5" width="374" height="1"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ViW-eT-SyD"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Glass Type:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LjO-WJ-JbB">
+                                <rect key="frame" x="20" y="208.5" width="374" height="24"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                <color key="textColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uH9-Pg-kic" customClass="TagListView" customModule="TagListView">
+                                <rect key="frame" x="20" y="242.5" width="374" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="paddingY">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="paddingX">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" red="0.14117647059999999" green="0.14117647059999999" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTextColor">
+                                        <color key="value" red="0.14117647059999999" green="0.14117647059999999" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tagBackgroundColor">
+                                        <color key="value" red="0.96078431369999995" green="0.79607843140000001" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.96078431369999995" green="0.79607843140000001" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4R-nT-6KF">
+                                <rect key="frame" x="20" y="133.5" width="340.5" height="24"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                <color key="textColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGo-mU-MzI" customClass="SearchButton" customModule="DrinkMaker" customModuleProvider="target">
+                                <rect key="frame" x="365.5" y="133.5" width="28.5" height="29"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28.5" id="mai-LC-YnL"/>
+                                </constraints>
+                                <color key="tintColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="plus" catalog="system">
+                                    <color key="titleColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14117647058823529" green="0.14117647058823529" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vGo-mU-MzI" firstAttribute="leading" relation="lessThanOrEqual" secondItem="i4R-nT-6KF" secondAttribute="trailing" constant="5" id="4c4-KX-AT5"/>
+                            <constraint firstItem="TFU-PT-ItQ" firstAttribute="top" secondItem="K8N-gg-4OQ" secondAttribute="bottom" constant="10" id="4qJ-Y6-da1"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="trailing" secondItem="c0l-qJ-DBS" secondAttribute="trailing" constant="20" id="947-fr-HB1"/>
+                            <constraint firstItem="uH9-Pg-kic" firstAttribute="top" secondItem="LjO-WJ-JbB" secondAttribute="bottom" constant="10" id="9DN-u4-yQc"/>
+                            <constraint firstItem="vGo-mU-MzI" firstAttribute="top" secondItem="i4R-nT-6KF" secondAttribute="top" id="Af9-Kq-pmf"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="trailing" secondItem="hy4-hu-mxc" secondAttribute="trailing" constant="20" id="F4l-0o-2xT"/>
+                            <constraint firstAttribute="trailing" secondItem="KvW-oK-qUC" secondAttribute="trailing" constant="20" id="Gnc-mX-3al"/>
+                            <constraint firstItem="9ep-XI-NUF" firstAttribute="leading" secondItem="Oz4-eL-vIA" secondAttribute="leading" constant="20" id="I1Z-Qt-UqU"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="trailing" secondItem="uH9-Pg-kic" secondAttribute="trailing" constant="20" id="KZM-Wh-Cu4"/>
+                            <constraint firstItem="uH9-Pg-kic" firstAttribute="leading" secondItem="Oz4-eL-vIA" secondAttribute="leading" constant="20" id="Kmc-8G-aTA"/>
+                            <constraint firstItem="dL8-6U-S4S" firstAttribute="top" secondItem="hy4-hu-mxc" secondAttribute="bottom" constant="10" id="Ndp-Kw-Cn4"/>
+                            <constraint firstItem="LjO-WJ-JbB" firstAttribute="leading" secondItem="Oz4-eL-vIA" secondAttribute="leading" constant="20" id="NyV-dv-0mg"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="trailing" secondItem="dL8-6U-S4S" secondAttribute="trailing" constant="20" id="Ot5-jg-s3k"/>
+                            <constraint firstItem="hy4-hu-mxc" firstAttribute="top" secondItem="9ep-XI-NUF" secondAttribute="bottom" constant="10" id="REr-4z-g5f"/>
+                            <constraint firstItem="KvW-oK-qUC" firstAttribute="top" secondItem="dL8-6U-S4S" secondAttribute="bottom" constant="10" id="Rd8-VN-cEs"/>
+                            <constraint firstItem="c0l-qJ-DBS" firstAttribute="leading" secondItem="Jjg-eP-P0Y" secondAttribute="trailing" constant="20" id="TTB-sy-Hq7"/>
+                            <constraint firstItem="hy4-hu-mxc" firstAttribute="leading" secondItem="Oz4-eL-vIA" secondAttribute="leading" constant="20" id="VB7-Ua-5i0"/>
+                            <constraint firstItem="K8N-gg-4OQ" firstAttribute="top" secondItem="vGo-mU-MzI" secondAttribute="bottom" constant="5" id="a9Q-Of-YGr"/>
+                            <constraint firstItem="LjO-WJ-JbB" firstAttribute="top" secondItem="TFU-PT-ItQ" secondAttribute="bottom" constant="10" id="aiq-dI-Kqg"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="trailing" secondItem="LjO-WJ-JbB" secondAttribute="trailing" constant="20" id="cEJ-LS-pP6"/>
+                            <constraint firstItem="i4R-nT-6KF" firstAttribute="leading" secondItem="Oz4-eL-vIA" secondAttribute="leading" constant="20" id="cm7-MR-D3X"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="bottom" secondItem="6cO-p2-e1d" secondAttribute="bottom" constant="20" id="dbB-Wv-H4C"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="trailing" secondItem="6cO-p2-e1d" secondAttribute="trailing" constant="20" id="eaV-Rr-4EJ"/>
+                            <constraint firstItem="K8N-gg-4OQ" firstAttribute="top" secondItem="i4R-nT-6KF" secondAttribute="bottom" constant="10" id="egm-E6-p5h"/>
+                            <constraint firstItem="dL8-6U-S4S" firstAttribute="leading" secondItem="Oz4-eL-vIA" secondAttribute="leading" constant="20" id="f4v-MM-Zch"/>
+                            <constraint firstItem="6cO-p2-e1d" firstAttribute="leading" secondItem="Oz4-eL-vIA" secondAttribute="leading" constant="20" id="fHF-Km-Toj"/>
+                            <constraint firstItem="KvW-oK-qUC" firstAttribute="leading" secondItem="9LZ-kB-z35" secondAttribute="leading" constant="20" id="goa-hs-b6O"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="trailing" secondItem="K8N-gg-4OQ" secondAttribute="trailing" constant="20" id="gvo-vb-QnI"/>
+                            <constraint firstItem="K8N-gg-4OQ" firstAttribute="leading" secondItem="Oz4-eL-vIA" secondAttribute="leading" constant="20" id="iHk-Od-fKI"/>
+                            <constraint firstItem="Jjg-eP-P0Y" firstAttribute="top" secondItem="Oz4-eL-vIA" secondAttribute="top" constant="10" id="ifP-1e-YBT"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="trailing" secondItem="9ep-XI-NUF" secondAttribute="trailing" constant="20" id="obK-7t-tTG"/>
+                            <constraint firstItem="Jjg-eP-P0Y" firstAttribute="leading" secondItem="Oz4-eL-vIA" secondAttribute="leading" constant="20" id="p5f-TF-QXy"/>
+                            <constraint firstItem="TFU-PT-ItQ" firstAttribute="leading" secondItem="Oz4-eL-vIA" secondAttribute="leading" constant="20" id="sK2-h9-awy"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="trailing" secondItem="TFU-PT-ItQ" secondAttribute="trailing" constant="20" id="vLg-Zu-maW"/>
+                            <constraint firstItem="i4R-nT-6KF" firstAttribute="top" secondItem="KvW-oK-qUC" secondAttribute="bottom" constant="10" id="vth-wk-fnB"/>
+                            <constraint firstItem="9ep-XI-NUF" firstAttribute="top" secondItem="c0l-qJ-DBS" secondAttribute="bottom" constant="10" id="wGy-gI-hI6"/>
+                            <constraint firstItem="c0l-qJ-DBS" firstAttribute="centerY" secondItem="Jjg-eP-P0Y" secondAttribute="centerY" id="wK0-mH-qjo"/>
+                            <constraint firstItem="Oz4-eL-vIA" firstAttribute="trailing" secondItem="vGo-mU-MzI" secondAttribute="trailing" constant="20" id="xGL-aR-4Ds"/>
+                            <constraint firstItem="6cO-p2-e1d" firstAttribute="centerX" secondItem="9LZ-kB-z35" secondAttribute="centerX" id="yg6-a1-vcR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Oz4-eL-vIA"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Search" id="jZ4-5C-rNF"/>
+                    <connections>
+                        <outlet property="categoryTagView" destination="dL8-6U-S4S" id="uUm-IE-yZa"/>
+                        <outlet property="glassTypeTagView" destination="uH9-Pg-kic" id="A1M-f7-x3O"/>
+                        <outlet property="ingredientTagView" destination="K8N-gg-4OQ" id="tuh-gk-iX9"/>
+                        <outlet property="searchButton" destination="6cO-p2-e1d" id="msm-do-XhV"/>
+                        <outlet property="searchIngredientsButton" destination="vGo-mU-MzI" id="4fu-p3-aP1"/>
+                        <outlet property="searchToggle" destination="c0l-qJ-DBS" id="F3Z-HM-v68"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jS2-jh-ULg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="479.71014492753625" y="788.83928571428567"/>
+        </scene>
+        <!--TestSingle-->
+        <scene sceneID="JPT-eX-Enr">
+            <objects>
+                <viewController id="t3F-ng-xwd" customClass="SingleDrinkViewController" customModule="DrinkMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g2T-QF-Ope">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="A8y-In-jg9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="TestSingle" image="person.fill" catalog="system" id="fYW-14-yEA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ngv-am-SK7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-326" y="1906"/>
+        </scene>
+        <!--Single-->
+        <scene sceneID="euN-Zu-tct">
+            <objects>
+                <tableViewController id="toh-Vb-QdA" customClass="UpdatedSingleDrinkTableViewController" customModule="DrinkMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="BPI-O8-qXV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pHZ-Lq-lY8">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pHZ-Lq-lY8" id="4qK-C8-2d1">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="toh-Vb-QdA" id="TRL-dK-Bfy"/>
+                            <outlet property="delegate" destination="toh-Vb-QdA" id="2gJ-9g-SIh"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Single" image="sunset" catalog="system" id="OvE-jt-hCz"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EUX-p0-Kxm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1443" y="1906"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Man-iU-e10">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="au1-gn-gTA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="oDM-yC-LxL">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.14117647058823529" green="0.14117647058823529" blue="0.13725490196078433" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9F4-Gz-jmi" kind="relationship" relationship="viewControllers" id="qeu-ew-zqy"/>
+                        <segue destination="aBz-mw-p8D" kind="relationship" relationship="viewControllers" id="sgz-O4-vc4"/>
+                        <segue destination="aKs-UE-BUm" kind="relationship" relationship="viewControllers" id="y7h-qp-eLj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vZU-2j-ybN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1948" y="152"/>
+        </scene>
+        <!--Square-->
+        <scene sceneID="Exh-gb-G29">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9F4-Gz-jmi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Square" image="house.fill" catalog="system" id="FZg-73-4FD"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GeW-dl-zWG">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NwX-Cb-Bpq" kind="relationship" relationship="rootViewController" id="uV2-HZ-t2G"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kjs-Ky-cJe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-430.43478260869568" y="-896.65178571428567"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="eAl-Q1-zdp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aKs-UE-BUm" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="28p-VT-dCq"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="EF9-N5-lfT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.20784313730000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                            <color key="textColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7yM-1C-Qfi" kind="relationship" relationship="rootViewController" id="ePg-tR-Iha"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wcd-1B-1lh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-430.43478260869568" y="788.83928571428567"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="command" catalog="system" width="128" height="115"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="sunset" catalog="system" width="128" height="97"/>
+    </resources>
+</document>
